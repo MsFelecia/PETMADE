@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PET MADE | Custom Orders</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="logo-area">
+      <img src="petmadelogo.png" alt="PET MADE Logo" class="logo">
+      <h1>PET MADE</h1>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="custom.html">Custom Orders</a></li>
+        <li><a href="gallery.html">Gallery & Testimonials</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <main class="content">
+    <section class="welcome">
+      <h3>Custom Orders</h3>
+      <p>
+        Every PET MADE item is created specifically for your pet. Please complete the form below with as much detail 
+        as possible so we can create the perfect fit.
+      </p>
+    </section>
+
+    <!-- Custom Order Steps -->
+    <section>
+      <h3>How It Works</h3>
+      <ol>
+        <li>Select the type of product you want.</li>
+        <li>Provide your pet’s measurements.</li>
+        <li>Choose colors, fabrics, and any special requests.</li>
+        <li>Submit the form and we’ll contact you to confirm details.</li>
+      </ol>
+    </section>
+
+    <!-- Custom Order Form -->
+    <section>
+      <h3>Custom Order Form</h3>
+      <form>
+        <label>Pet Owner Name<br>
+          <input type="text" name="owner-name" required>
+        </label><br><br>
+
+        <label>Email Address<br>
+          <input type="email" name="email" required>
+        </label><br><br>
+
+        <label>Pet Name<br>
+          <input type="text" name="pet-name" required>
+        </label><br><br>
+
+        <label>Pet Type<br>
+          <select name="pet-type">
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Other</option>
+          </select>
+        </label><br><br>
+
+        <label>Product Type<br>
+          <select name="product-type">
+            <option>Clothing</option>
+            <option>Pet Carrier</option>
+          </select>
+        </label><br><br>
+
+        <label>Measurements (in inches)<br>
+          <textarea name="measurements" rows="4"></textarea>
+        </label><br><br>
+
+        <label>Color / Fabric Preferences<br>
+          <textarea name="preferences" rows="4"></textarea>
+        </label><br><br>
+
+        <label>Additional Notes<br>
+          <textarea name="notes" rows="4"></textarea>
+        </label><br><br>
+
+        <button type="submit" class="cta-button">Submit Custom Order</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 PET MADE. Handmade with love.</p>
+  </footer>
+
+</body>
+</html>
